@@ -1,2 +1,3 @@
 // Services are wired into AppState in main.rs and injected via Axum State.
-// Phase 2+ adds: product_lookup, llm, push_service, event_simulator
+pub mod product_lookup;
+// Phase 5+ adds: push_service, event_simulator
